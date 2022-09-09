@@ -37,7 +37,9 @@ public class TasksController {
 			model.addAttribute("version", VERSION);
 		return "index";
 	}
-	
+
+
+
 	@GetMapping("add")
 	public String add(Model model) {
 		model.addAttribute("todo", new Todo());
